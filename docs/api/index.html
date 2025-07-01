@@ -43,11 +43,11 @@
       </tr>
       
         <tr>
-          <td>name</td><td>The name to say "Hello" to.</td><td>string</td><td></td>
+          <td>name</td><td>The name to say "Hello" to.</td><td>string</td><td>'World'</td>
         </tr>
       
         <tr>
-          <td>count</td><td>The number of times the button has been clicked.</td><td>number</td><td></td>
+          <td>count</td><td>The number of times the button has been clicked.</td><td>number</td><td>0</td>
         </tr>
       
     </table>
@@ -133,6 +133,694 @@
       
     </table>
   
+        
+        
+        <h2>&lt;employee-context></h2>
+        <div>
+          
+        </div>
+        
+        
+    <h3>Properties</h3>
+    <table>
+      <tr>
+        <th>Name</th><th>Attribute</th><th>Description</th><th>Type</th><th>Default</th>
+      </tr>
+      
+        <tr>
+          <td>_employees</td><td></td><td></td><td></td><td></td>
+        </tr>
+      
+        <tr>
+          <td>_provider</td><td></td><td></td><td></td><td>new ContextProvider(this, {
+      context: employeeContext,
+      initialValue: this._employees,
+    })</td>
+        </tr>
+      
+    </table>
+    
+        
+    <h3>Methods</h3>
+    <table>
+      <tr>
+        <th>Name</th><th>Parameters</th><th>Description</th><th>Return</th>
+      </tr>
+      
+        <tr>
+          <td>updateEmployees</td><td>
+    
+    <table>
+      <tr>
+        <th>Name</th><th>Description</th><th>Type</th>
+      </tr>
+      
+        <tr>
+          <td>newEmployees</td><td></td><td></td>
+        </tr>
+      
+    </table>
+  </td><td></td><td></td>
+        </tr>
+      
+        <tr>
+          <td>addEmployee</td><td>
+    
+    <table>
+      <tr>
+        <th>Name</th><th>Description</th><th>Type</th>
+      </tr>
+      
+        <tr>
+          <td>newEmployee</td><td></td><td></td>
+        </tr>
+      
+    </table>
+  </td><td></td><td></td>
+        </tr>
+      
+        <tr>
+          <td>editEmployee</td><td>
+    
+    <table>
+      <tr>
+        <th>Name</th><th>Description</th><th>Type</th>
+      </tr>
+      
+        <tr>
+          <td>editedEmployeeId</td><td></td><td></td>
+        </tr>
+      
+        <tr>
+          <td>newEmployeeData</td><td></td><td></td>
+        </tr>
+      
+    </table>
+  </td><td></td><td></td>
+        </tr>
+      
+    </table>
+  
+            
+          
+        
+        
+        
+        <h2>&lt;add-employee></h2>
+        <div>
+          
+        </div>
+        
+    <h3>Attributes</h3>
+    <table>
+      <tr>
+        <th>Name</th><th>Description</th><th>Type</th><th>Default</th>
+      </tr>
+      
+        <tr>
+          <td>_firstName</td><td></td><td></td><td></td>
+        </tr>
+      
+        <tr>
+          <td>_lastName</td><td></td><td></td><td></td>
+        </tr>
+      
+        <tr>
+          <td>_dateOfEmployment</td><td></td><td></td><td></td>
+        </tr>
+      
+        <tr>
+          <td>_dateOfBirth</td><td></td><td></td><td></td>
+        </tr>
+      
+        <tr>
+          <td>_phone</td><td></td><td></td><td></td>
+        </tr>
+      
+        <tr>
+          <td>_email</td><td></td><td></td><td></td>
+        </tr>
+      
+        <tr>
+          <td>_department</td><td></td><td></td><td></td>
+        </tr>
+      
+        <tr>
+          <td>_position</td><td></td><td>string</td><td>'Junior'</td>
+        </tr>
+      
+    </table>
+  
+        
+    <h3>Properties</h3>
+    <table>
+      <tr>
+        <th>Name</th><th>Attribute</th><th>Description</th><th>Type</th><th>Default</th>
+      </tr>
+      
+        <tr>
+          <td>_position</td><td>_position</td><td></td><td>string</td><td>'Junior'</td>
+        </tr>
+      
+        <tr>
+          <td>_firstName</td><td>_firstName</td><td></td><td></td><td></td>
+        </tr>
+      
+        <tr>
+          <td>_lastName</td><td>_lastName</td><td></td><td></td><td></td>
+        </tr>
+      
+        <tr>
+          <td>_dateOfEmployment</td><td>_dateOfEmployment</td><td></td><td></td><td></td>
+        </tr>
+      
+        <tr>
+          <td>_dateOfBirth</td><td>_dateOfBirth</td><td></td><td></td><td></td>
+        </tr>
+      
+        <tr>
+          <td>_phone</td><td>_phone</td><td></td><td></td><td></td>
+        </tr>
+      
+        <tr>
+          <td>_email</td><td>_email</td><td></td><td></td><td></td>
+        </tr>
+      
+        <tr>
+          <td>_department</td><td>_department</td><td></td><td></td><td></td>
+        </tr>
+      
+    </table>
+    
+        
+    <h3>Methods</h3>
+    <table>
+      <tr>
+        <th>Name</th><th>Parameters</th><th>Description</th><th>Return</th>
+      </tr>
+      
+        <tr>
+          <td>handleAddEmployee</td><td>
+    
+    <table>
+      <tr>
+        <th>Name</th><th>Description</th><th>Type</th>
+      </tr>
+      
+        <tr>
+          <td>e</td><td></td><td></td>
+        </tr>
+      
+    </table>
+  </td><td></td><td></td>
+        </tr>
+      
+    </table>
+  
+            
+          
+        
+        
+        
+        <h2>&lt;delete-record-modal></h2>
+        <div>
+          
+        </div>
+        
+    <h3>Attributes</h3>
+    <table>
+      <tr>
+        <th>Name</th><th>Description</th><th>Type</th><th>Default</th>
+      </tr>
+      
+        <tr>
+          <td>firstName</td><td></td><td></td><td></td>
+        </tr>
+      
+        <tr>
+          <td>lastName</td><td></td><td></td><td></td>
+        </tr>
+      
+        <tr>
+          <td>closeModal</td><td></td><td></td><td></td>
+        </tr>
+      
+        <tr>
+          <td>confirmDelete</td><td></td><td></td><td></td>
+        </tr>
+      
+    </table>
+  
+        
+    <h3>Properties</h3>
+    <table>
+      <tr>
+        <th>Name</th><th>Attribute</th><th>Description</th><th>Type</th><th>Default</th>
+      </tr>
+      
+        <tr>
+          <td>firstName</td><td>firstName</td><td></td><td></td><td></td>
+        </tr>
+      
+        <tr>
+          <td>lastName</td><td>lastName</td><td></td><td></td><td></td>
+        </tr>
+      
+        <tr>
+          <td>closeModal</td><td>closeModal</td><td></td><td></td><td></td>
+        </tr>
+      
+        <tr>
+          <td>confirmDelete</td><td>confirmDelete</td><td></td><td></td><td></td>
+        </tr>
+      
+    </table>
+    
+        
+    <h3>Methods</h3>
+    <table>
+      <tr>
+        <th>Name</th><th>Parameters</th><th>Description</th><th>Return</th>
+      </tr>
+      
+        <tr>
+          <td>handleBackgroundClick</td><td>
+    
+    <table>
+      <tr>
+        <th>Name</th><th>Description</th><th>Type</th>
+      </tr>
+      
+        <tr>
+          <td>e</td><td></td><td></td>
+        </tr>
+      
+    </table>
+  </td><td></td><td></td>
+        </tr>
+      
+    </table>
+  
+            
+          
+        
+        
+        
+        <h2>&lt;edit-employee></h2>
+        <div>
+          
+        </div>
+        
+    <h3>Attributes</h3>
+    <table>
+      <tr>
+        <th>Name</th><th>Description</th><th>Type</th><th>Default</th>
+      </tr>
+      
+        <tr>
+          <td>_firstName</td><td></td><td></td><td></td>
+        </tr>
+      
+        <tr>
+          <td>_lastName</td><td></td><td></td><td></td>
+        </tr>
+      
+        <tr>
+          <td>_dateOfEmployment</td><td></td><td></td><td></td>
+        </tr>
+      
+        <tr>
+          <td>_dateOfBirth</td><td></td><td></td><td></td>
+        </tr>
+      
+        <tr>
+          <td>_phone</td><td></td><td></td><td></td>
+        </tr>
+      
+        <tr>
+          <td>_email</td><td></td><td></td><td></td>
+        </tr>
+      
+        <tr>
+          <td>_department</td><td></td><td></td><td></td>
+        </tr>
+      
+        <tr>
+          <td>_position</td><td></td><td></td><td></td>
+        </tr>
+      
+    </table>
+  
+        
+    <h3>Properties</h3>
+    <table>
+      <tr>
+        <th>Name</th><th>Attribute</th><th>Description</th><th>Type</th><th>Default</th>
+      </tr>
+      
+        <tr>
+          <td>_firstName</td><td>_firstName</td><td></td><td></td><td></td>
+        </tr>
+      
+        <tr>
+          <td>_lastName</td><td>_lastName</td><td></td><td></td><td></td>
+        </tr>
+      
+        <tr>
+          <td>_dateOfEmployment</td><td>_dateOfEmployment</td><td></td><td></td><td></td>
+        </tr>
+      
+        <tr>
+          <td>_dateOfBirth</td><td>_dateOfBirth</td><td></td><td></td><td></td>
+        </tr>
+      
+        <tr>
+          <td>_phone</td><td>_phone</td><td></td><td></td><td></td>
+        </tr>
+      
+        <tr>
+          <td>_email</td><td>_email</td><td></td><td></td><td></td>
+        </tr>
+      
+        <tr>
+          <td>_department</td><td>_department</td><td></td><td></td><td></td>
+        </tr>
+      
+        <tr>
+          <td>_position</td><td>_position</td><td></td><td></td><td></td>
+        </tr>
+      
+    </table>
+    
+        
+    <h3>Methods</h3>
+    <table>
+      <tr>
+        <th>Name</th><th>Parameters</th><th>Description</th><th>Return</th>
+      </tr>
+      
+        <tr>
+          <td>handleEditEmployee</td><td>
+    
+    <table>
+      <tr>
+        <th>Name</th><th>Description</th><th>Type</th>
+      </tr>
+      
+        <tr>
+          <td>e</td><td></td><td></td>
+        </tr>
+      
+    </table>
+  </td><td></td><td></td>
+        </tr>
+      
+    </table>
+  
+            
+          
+        
+        
+        
+        <h2>&lt;employee-record-box></h2>
+        <div>
+          
+        </div>
+        
+    <h3>Attributes</h3>
+    <table>
+      <tr>
+        <th>Name</th><th>Description</th><th>Type</th><th>Default</th>
+      </tr>
+      
+        <tr>
+          <td>employee</td><td></td><td></td><td></td>
+        </tr>
+      
+        <tr>
+          <td>handleOpenModal</td><td></td><td></td><td></td>
+        </tr>
+      
+        <tr>
+          <td>handleCloseModal</td><td></td><td></td><td></td>
+        </tr>
+      
+        <tr>
+          <td>changeEmployeeToBeDeleted</td><td></td><td></td><td></td>
+        </tr>
+      
+    </table>
+  
+        
+    <h3>Properties</h3>
+    <table>
+      <tr>
+        <th>Name</th><th>Attribute</th><th>Description</th><th>Type</th><th>Default</th>
+      </tr>
+      
+        <tr>
+          <td>employee</td><td>employee</td><td></td><td></td><td></td>
+        </tr>
+      
+        <tr>
+          <td>handleOpenModal</td><td>handleOpenModal</td><td></td><td></td><td></td>
+        </tr>
+      
+        <tr>
+          <td>handleCloseModal</td><td>handleCloseModal</td><td></td><td></td><td></td>
+        </tr>
+      
+        <tr>
+          <td>changeEmployeeToBeDeleted</td><td>changeEmployeeToBeDeleted</td><td></td><td></td><td></td>
+        </tr>
+      
+    </table>
+    
+        
+            
+          
+        
+        
+        
+        <h2>&lt;employee-records></h2>
+        <div>
+          
+        </div>
+        
+    <h3>Attributes</h3>
+    <table>
+      <tr>
+        <th>Name</th><th>Description</th><th>Type</th><th>Default</th>
+      </tr>
+      
+        <tr>
+          <td>_employees</td><td></td><td>array</td><td>[]</td>
+        </tr>
+      
+        <tr>
+          <td>_currentPage</td><td></td><td></td><td></td>
+        </tr>
+      
+        <tr>
+          <td>_maxPage</td><td></td><td></td><td></td>
+        </tr>
+      
+        <tr>
+          <td>_dataPresentationFormat</td><td></td><td></td><td></td>
+        </tr>
+      
+        <tr>
+          <td>_showModal</td><td></td><td>boolean</td><td>false</td>
+        </tr>
+      
+        <tr>
+          <td>_employeeToBeDeleted</td><td></td><td></td><td></td>
+        </tr>
+      
+        <tr>
+          <td>_showDummyData</td><td></td><td>boolean</td><td>!localStorage.getItem('dummyDataCleared')</td>
+        </tr>
+      
+        <tr>
+          <td>_language</td><td></td><td></td><td></td>
+        </tr>
+      
+    </table>
+  
+        
+    <h3>Properties</h3>
+    <table>
+      <tr>
+        <th>Name</th><th>Attribute</th><th>Description</th><th>Type</th><th>Default</th>
+      </tr>
+      
+        <tr>
+          <td>selectButtons</td><td></td><td></td><td></td><td></td>
+        </tr>
+      
+        <tr>
+          <td>_employees</td><td>_employees</td><td></td><td>array</td><td>[]</td>
+        </tr>
+      
+        <tr>
+          <td>_consumer</td><td></td><td></td><td></td><td>new ContextConsumer(this, employeeContext, (value) => {
+      this._employees = value;
+      this._currentPage = 1;
+      this._maxPage = Math.ceil(this._employees.length / recordsPerPage) || 1;
+      this.requestUpdate();
+    })</td>
+        </tr>
+      
+        <tr>
+          <td>_showModal</td><td>_showModal</td><td></td><td>boolean</td><td>false</td>
+        </tr>
+      
+        <tr>
+          <td>_dataPresentationFormat</td><td>_dataPresentationFormat</td><td></td><td></td><td></td>
+        </tr>
+      
+        <tr>
+          <td>_showDummyData</td><td>_showDummyData</td><td></td><td>boolean</td><td>!localStorage.getItem('dummyDataCleared')</td>
+        </tr>
+      
+        <tr>
+          <td>_language</td><td>_language</td><td></td><td></td><td></td>
+        </tr>
+      
+        <tr>
+          <td>_currentPage</td><td>_currentPage</td><td></td><td></td><td></td>
+        </tr>
+      
+        <tr>
+          <td>_maxPage</td><td>_maxPage</td><td></td><td></td><td></td>
+        </tr>
+      
+        <tr>
+          <td>_employeeToBeDeleted</td><td>_employeeToBeDeleted</td><td></td><td></td><td></td>
+        </tr>
+      
+    </table>
+    
+        
+    <h3>Methods</h3>
+    <table>
+      <tr>
+        <th>Name</th><th>Parameters</th><th>Description</th><th>Return</th>
+      </tr>
+      
+        <tr>
+          <td>handleClearDummyData</td><td></td><td></td><td></td>
+        </tr>
+      
+        <tr>
+          <td>handleOpenModal</td><td></td><td></td><td></td>
+        </tr>
+      
+        <tr>
+          <td>changeEmployeeToBeDeleted</td><td>
+    
+    <table>
+      <tr>
+        <th>Name</th><th>Description</th><th>Type</th>
+      </tr>
+      
+        <tr>
+          <td>employee</td><td></td><td></td>
+        </tr>
+      
+    </table>
+  </td><td></td><td></td>
+        </tr>
+      
+        <tr>
+          <td>handleCloseModal</td><td></td><td></td><td></td>
+        </tr>
+      
+        <tr>
+          <td>handleDeleteRecord</td><td></td><td></td><td></td>
+        </tr>
+      
+        <tr>
+          <td>handlePageChange</td><td>
+    
+    <table>
+      <tr>
+        <th>Name</th><th>Description</th><th>Type</th>
+      </tr>
+      
+        <tr>
+          <td>direction</td><td></td><td></td>
+        </tr>
+      
+    </table>
+  </td><td></td><td></td>
+        </tr>
+      
+        <tr>
+          <td>handleChangeDataPresentationFormat</td><td>
+    
+    <table>
+      <tr>
+        <th>Name</th><th>Description</th><th>Type</th>
+      </tr>
+      
+        <tr>
+          <td>format</td><td></td><td></td>
+        </tr>
+      
+    </table>
+  </td><td></td><td></td>
+        </tr>
+      
+        <tr>
+          <td>createPagination</td><td></td><td></td><td></td>
+        </tr>
+      
+    </table>
+  
+            
+          
+        
+        
+        
+        <h2>&lt;nav-bar></h2>
+        <div>
+          
+        </div>
+        
+    <h3>Attributes</h3>
+    <table>
+      <tr>
+        <th>Name</th><th>Description</th><th>Type</th><th>Default</th>
+      </tr>
+      
+        <tr>
+          <td>_path</td><td></td><td></td><td></td>
+        </tr>
+      
+    </table>
+  
+        
+    <h3>Properties</h3>
+    <table>
+      <tr>
+        <th>Name</th><th>Attribute</th><th>Description</th><th>Type</th><th>Default</th>
+      </tr>
+      
+        <tr>
+          <td>createContext</td><td></td><td></td><td></td><td></td>
+        </tr>
+      
+        <tr>
+          <td>_path</td><td>_path</td><td></td><td></td><td></td>
+        </tr>
+      
+    </table>
+    
+        
+            
+          
+        
         
         
     
